@@ -133,9 +133,9 @@ body::after {
     animation: cv-init 3s ease-in-out
 }
 :root {
-    --load1: "Loading styles";
-    --load2: "Loading assets";
-    --load3: "Finished loading"
+    --load1: "Welcom To";
+    --load2: "A New";
+    --load3: "World"
 }
 @-webkit-keyframes cv-init {
     0% {
