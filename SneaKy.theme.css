@@ -1,0 +1,403 @@
+//META{"name":"Rainbow","description":"Github: https://github.com/SneaKy178/Sneaky-Theme Check The Github For More Info And Support.","author":"SneaKy","version":"ersion auto updates"}*//{}
+/* "Sick theme from Sneaky(i took clear vision and mode it) */
+
+
+
+/* IMPORT CSS FROM GITHUB */
+@import url(https://gitcdn.xyz/repo/Zerthox/ClearVision/master/css/ClearVision_v5.min.css);
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+IMPORTANT: CHANGE BETWEEN DARK AND LIGHT VERSION IN APPEARANCE SETTINGS!
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+============== CUSTOMIZABLE COLORS ===============
+*/
+:root {
+	--main-color: black;  
+	--hover-color: white;
+    --background-blur: 0px;
+    --background-brightness: 100%;
+}
+/*Mic*/
+.container-iksrDt .horizontal-2BEEBe div button[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgPHJlY3Qgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0Ii8+CiAgICA8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNNyw0LjQ0MDg5MjFlLTE2IEM4LjY1Njg1NDI1LDAgMTAsMS4zNDMxNDU3NSAxMCwzIEwxMCw5IEMxMCwxMC42NTY4NTQyIDguNjU2ODU0MjUsMTIgNywxMiBDNS4zNDMxNDU3NSwxMiA0LDEwLjY1Njg1NDIgNCw5IEw0LDMgQzQsMS4zNDMxNDU3NSA1LjM0MzE0NTc1LDQuNDQwODkyMWUtMTYgNywwIEw3LDQuNDQwODkyMWUtMTYgWiBNMTQsOSBDMTQsMTIuNTMgMTEuMzksMTUuNDQgOCwxNS45MyBMOCwxOSBMNiwxOSBMNiwxNS45MyBDMi42MSwxNS40NCAwLDEyLjUzIDAsOSBMMiw5IEMyLDExLjc2MTQyMzcgNC4yMzg1NzYyNSwxNCA3LDE0IEM5Ljc2MTQyMzc1LDE0IDEyLDExLjc2MTQyMzcgMTIsOSBMMTQsOSBMMTQsOSBaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1IDMpIi8+CiAgPC9nPgo8L3N2Zz4K");']{
+    background: url(https://cdn.rawgit.com/NFLD99/9b216f3a3cde1f5cead4a6d347850a07/raw/4ca4535d8f0b36724d781e4df7fe356a9a8b3366/mic2.svg)!important;
+    background-size:60%!important;
+    background-position:50%!important;
+    background-repeat:no-repeat!important;
+	 animation: rainbow 3s infinite linear;   
+}
+
+/*Mic disabled/muted*/
+.container-iksrDt .horizontal-2BEEBe div button[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHRyYW5zZm9ybT0ibWF0cml4KC0xIDAgMCAxIDI0IDApIj4KICAgIDxyZWN0IHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIvPgogICAgPGcgdHJhbnNmb3JtPSJtYXRyaXgoLTEgMCAwIDEgMjEgMykiPgogICAgICA8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMTYsOSBDMTYsMTAuMTkgMTUuNjYsMTEuMyAxNS4xLDEyLjI4IEwxMy44NywxMS4wNSBDMTQuMTQsMTAuNDMgMTQuMyw5Ljc0IDE0LjMsOSBMMTYsOSBMMTYsOSBaIE0xMiw5LjE2IEw2LDMuMTggTDYsMyBDNiwxLjM0MzE0NTc1IDcuMzQzMTQ1NzUsNC40NDA4OTIxZS0xNiA5LDAgQzEwLjY1Njg1NDIsMCAxMiwxLjM0MzE0NTc1IDEyLDMgTDEyLDkgTDEyLDkuMTYgTDEyLDkuMTYgWiBNMTIuNTQsMTQuODEgQzExLjc3LDE1LjI3IDEwLjkxLDE1LjU4IDEwLDE1LjcyIEwxMCwxOSBMOCwxOSBMOCwxNS43MiBDNC43MiwxNS4yMyAyLDEyLjQxIDIsOSBMMy43LDkgQzMuNywxMiA2LjI0LDE0LjEgOSwxNC4xIEM5LjgxLDE0LjEgMTAuNiwxMy45MSAxMS4zMSwxMy41OCBMOS42NSwxMS45MiBMOSwxMiBDNy4zNDMxNDU3NSwxMiA2LDEwLjY1Njg1NDIgNiw5IEw2LDguMjggTDEyLjU0LDE0LjgxIFoiLz4KICAgICAgPHBvbHlnb24gZmlsbD0iI0YwNDc0NyIgcG9pbnRzPSIxLjI3IDEgMTggMTcuNzMgMTYuNzMgMTkgMCAyLjI3Ii8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K");']{
+    background: url(https://ditmcouk.ipage.com/noottech/discord-icons/green/green-muted.svg)!important;
+    background-size:60%!important;
+    background-position:50%!important;
+    background-repeat:no-repeat!important;
+	 animation: rainbow 3s infinite linear;   
+}
+
+/*Audio*/
+.container-iksrDt .horizontal-2BEEBe div button[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgPHJlY3Qgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0Ii8+CiAgICA8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMywxMSBDMyw2IDcsMiAxMiwyIEwxMiw0IEM4LjEzNDAwNjc1LDQgNSw3LjEzNDAwNjc1IDUsMTEgTDUsMTMgTDksMTMgTDksMjEgTDYsMjEgQzQuMzQzMTQ1NzUsMjEgMywxOS42NTY4NTQyIDMsMTggTDMsMTEgWiBNMjEsMTEgTDIxLDE4IEMyMSwxOS42NTY4NTQyIDE5LjY1Njg1NDIsMjEgMTgsMjEgTDE1LDIxIEwxNSwxMyBMMTksMTMgTDE5LDExIEMxOSw3LjEzNDAwNjc1IDE1Ljg2NTk5MzIsNCAxMiw0IEwxMiwyIEMxNywyIDIxLDYgMjEsMTEgWiIvPgogIDwvZz4KPC9zdmc+Cg==");']{
+    background-image: url(https://cdn.rawgit.com/NFLD99/f62a29bdd1002f41e596fe0d1fedbfb5/raw/cf014acceff7577a665260120ae8c2f9512f11b5/deafen.svg) !important;
+    background-size:60%!important;
+    background-position:50%!important;
+    background-repeat:no-repeat!important;
+	 animation: rainbow 3s infinite linear;   
+}
+
+/*Audio disabled/deafened*/
+.container-iksrDt .horizontal-2BEEBe div button[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTE3LjQzLDUuODQgQzE3LjgsNi44MiAxOCw3Ljg5IDE4LDkgTDE4LDE3IEMxOCwxOC42NTY4NTQyIDE2LDE5IDE2LDE5IEwxMiwxOSBMMTIsMTEuMjcgTDYsMTcuMjcgTDYsMTkgTDQuMjcsMTkgTDEuNzcsMjEuNSBMMTcuNDMsNS44NCBaIE05LDAgQzExLjUzLDAgMTMuODIsMS4wNCAxNS40NSwyLjcyIEwxNC4wNCw0LjE0IEMxMi43NywyLjgyIDExLDIgOSwyIEM1LjEzNDAwNjc1LDIgMiw1LjEzNDAwNjc1IDIsOSBMMiwxMSBMNiwxMSBMNiwxMi4xOCBMMC41LDE3LjY3IEMwLjE5LDE3LjE5IDAsMTYuNjIgMCwxNiBMMCw5IEMtMS4zMzIyNjc2M2UtMTUsNC4wMjk0MzcyNSA0LjAyOTQzNzI1LDEuMzMyMjY3NjNlLTE1IDksNC40NDA4OTIxZS0xNiBMOSwwIFogTTE2LDExIEwxNiw5IEMxNiw4LjQ2IDE1Ljk0LDcuOTQgMTUuODMsNy40NCBMMTIuMjcsMTEgTDE2LDExIFoiIHRyYW5zZm9ybT0ibWF0cml4KC0xIDAgMCAxIDIxIDIpIi8+CiAgICA8cG9seWdvbiBmaWxsPSIjRjA0NzQ3IiBwb2ludHM9IjEuMjcgMTkuNSAwIDE4LjIyIDE3LjcyIC41IDE5IDEuNzciIHRyYW5zZm9ybT0ibWF0cml4KC0xIDAgMCAxIDIwIDQpIi8+CiAgPC9nPgo8L3N2Zz4K");']{
+    background-image: url(https://ditmcouk.ipage.com/noottech/discord-icons/green/green-deafen.svg) !important;
+    background-size:60%!important;
+    background-position:50%!important;
+    background-repeat:no-repeat!important;
+	 animation: rainbow 3s infinite linear;   
+}
+
+
+.container-iksrDt .button-1aU9q1 svg {
+	display: block;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+	position: relative;
+    background-image: url(https://cdn.rawgit.com/NFLD99/d05ecfe9f9032793292526b8d2dedf77/raw/05175dcdf7cbdfda75f4fecbe583512d71a9ce66/Settings.svg)!important;
+	background-size:100%!important;
+    background-position:80%!important;
+    background-repeat:no-repeat!important;
+	fill: transparent;
+	 animation: rainbow 3s infinite linear;   
+}
+[class*="buttonDisconnect"]::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url(https://cdn.rawgit.com/NFLD99/8f34a7b2fa021c37a88a34e0506e5f8e/raw/b05fb27549370e73d0453cd33c12f5a60e9f276e/Exit.svg)!important;
+	animation: rainbow 3s infinite linear;  
+}
+
+[class*="buttonInfo"] {
+    background-image: url(https://cdn.rawgit.com/NFLD99/e80c340c4669c64a41c563d7b5051bbf/raw/04aef4a676789aa4597d4af669f4831e207eee6e/Info.svg)!important;
+	animation: rainbow 3s infinite linear;  
+	background-size:70%!important;
+}
+
+
+
+@keyframes rainbow {
+    from { -webkit-filter: hue-rotate(0deg); }
+    to { -webkit-filter: hue-rotate(360deg); }
+}
+
+
+.chat > .content .messages .message-group h2 .user-name {
+    color: red !important;
+      animation: rainbow 3s infinite linear;
+}
+
+.theme-dark .message-group .comment .markup {
+    color: yellow !important;
+}
+
+.channel-members .member .member-activity, .channel-members .member .member-username-inner {
+    overflow: hidden;
+    color : red;
+    animation: rainbow 3s infinite linear;
+}
+
+.channel-members h2 {
+    color: red !important;
+    background-color: transparent !important;
+    animation: rainbow 3s infinite linear;
+}
+
+.name-3gtcmp {
+    color : red;
+    animation: rainbow 3s infinite linear;
+}
+
+.nameDefault-Lnjrwm {
+    color: red !important;
+    animation: rainbow 3s infinite linear;
+}
+
+.private-channels .channel .channel-name {
+    color: red !important;
+    animation: rainbow 3s infinite linear;  
+     opacity: 1;
+    
+}
+
+.nameDefaultText-QoumjC, .nameDefaultVoice-1swZoh, .nameLockedText-2fGz07, .nameLockedVoice-wNOMNa {
+    color: red ;
+    animation: rainbow 3s infinite linear;   
+}
+
+.colorDefaultText-2v6rRX, .colorDefaultVoice-1x4dEl, .colorHoveredText-1CsxK1, .colorHoveredVoice-1P3kui, .colorLockedText-2onHWv, .colorLockedVoice-2VCSgk, .colorSelectedText-3YhFC6, .colorSelectedVoice-ieXC3Z, .colorUnreadText-1KwCnP, .colorUnreadVoice-1Ztv9I {
+    color: red !important;
+    animation: rainbow 3s infinite linear;   
+}
+.channels-wrap [class*="scroller-"] [class*="Text"][class*="content"][class*="Selected"] {
+    background-color: red !important;
+    animation: rainbow 3s infinite linear;   
+}
+
+.wrapper-2ldvyE {
+    color: red !important;
+    background-color: transparent !important;
+    animation: rainbow 3s infinite linear;   
+}
+
+.nameUnreadText-1pxldj, .nameUnreadVoice-QK4gxH {
+    color: red !important;
+     animation: rainbow 3s infinite linear;   
+}
+.chat .divider:not(.divider-red)>span {
+    color: red !important;
+     animation: rainbow 3s infinite linear;   
+}
+
+.private-channels .channel .channel-activity {
+    color: red !important;
+    animation: rainbow 3s infinite linear;   
+} 
+
+.chat .title-wrap .channel-name, .theme-dark .chat .title-wrap .channel-name, .chat .title-wrap .title.channel-group-dm-managed .channel-name, .theme-dark .chat .title-wrap .title.channel-group-dm-managed .channel-name, .chat .title-wrap .title.channel-group-dm .channel-name .input-autosize-inner .input-autosize-input, .theme-dark .chat .title-wrap .title.channel-group-dm .channel-name .input-autosize-inner .input-autosize-input, .private-channels .channel.selected .channel-activity { 
+        color : red ;
+        animation: rainbow 3s infinite linear;   
+}  
+
+
+.chat>.title-wrap>.title .channel-name:before {
+    color : red !important;
+     animation: rainbow 3s infinite linear;      
+}
+
+.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"], #bd-settings-sidebar .ui-tab-bar-item {
+    color: red!important;
+    animation: rainbow 3s infinite linear; 
+}
+ 
+.channels-wrap [class*="scroller-"] [class*="Text"] [class*="unread-"] + div [class*="marginReset"]:first-child svg path {
+    fill: var(--main-color);
+    opacity: 1!important;
+    color : red;
+    animation: rainbow 3s infinite linear;     
+}
+
+.chat>.content .messages .message-group .mentioned .markup .mention {
+    color: red!important;
+    animation: rainbow 3s infinite linear;
+    background : transaprent !important;
+}
+
+.mention:hover, .chat > .content .messages .message-group .markup .mention:hover {
+    color: red !important;
+     animation: rainbow 3s infinite linear; 
+}
+
+.mention {
+    color: red !important;
+    background: transparent!important;
+    animation: rainbow 3s infinite linear; 
+}
+
+.chat > .content .messages .message-group h2 span {
+    color: red!important;
+	animation: rainbow 3s infinite linear; 
+}
+
+.chat .divider.divider-red > span::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    color: red !important;
+	background : transparent !important;
+    border-radius: 3px;
+    opacity: .8;
+	animation: rainbow 3s infinite linear; 
+}
+.message-group .comment .markup {
+    color: yellow !important;
+}
+    
+.private-channels .channel.selected a {
+    color: #fff;
+    background-color: red !important;
+	animation: rainbow 3s infinite linear; 
+}
+
+.chat .divider.divider-red > span {
+    background: transparent!important;
+    color: red !important;
+	animation: rainbow 3s infinite linear; 
+    position: relative;
+}
+
+    
+@keyframes rainbow {
+    from { -webkit-filter: hue-rotate(0deg); }
+    to { -webkit-filter: hue-rotate(360deg); }
+}
+
+.content .flex-spacer, .content > .ui-flex {
+    background: transparent !important;
+}
+
+.channel-members, .search-results-wrap {
+    background: transparent !important;
+}
+.platform-osx .guilds-wrapper .guilds {
+    padding-top: 0;
+    opacity: 1;
+}
+
+.friends-table {
+    background: transparent !important;
+    margin-top: 0;
+}
+
+.title-wrap {
+    background: transparent !important;
+    border-bottom: 1px solid transparent!important;
+}
+
+#rtc-connection, #friends, #friends .btn, .friends-header, .friends-table, .search-bar, .guilds-wrapper, .channels-wrap, .guild-channels, .account, .links, .messages-wrapper, .title-wrap, .content, .chat-empty, .message-group-blocked, .private-channels, .guild-header header, .typing, .ider-red span {
+    background: transparent !important;
+}
+
+
+.guilds-wrapper .guilds .friends-online {
+    background: transparent !important;
+}
+.chat > .content .messages .message-group .markup {
+    line-height: 1em;
+    opacity: 1.0
+}
+
+.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO{
+background:transparent !important;
+    border-radius:15px;
+    opacity:0.7;
+}
+
+.chat .divider > span {
+    background: rgba(r,g,b,alpha/opacity) !important;
+    opacity : 0.2
+}
+
+.guilds-wrapper .guilds .guild .guild-inner a {
+    color: #fff !important;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.kawaii-tag {
+    background: transparent !important;
+}   
+
+
+[draggable] > div > div > div > svg[class^="color"] {
+    display: none;
+}
+
+.message-group-blocked {
+  display: none; }
+  
+
+.theme-dark .autocomplete-1TnWNR { background: transparent !important; 
+}
+.theme-dark .selectorSelected-2M0IGv { background: Blue !important;
+} 
+  
+.chat > .content .messages .message-group:not(.has-divider) {
+    border-bottom-color: transparent !important;
+}  
+  
+
+.container-iksrDt [class*="iconButton"], .container-iksrDt [class*="button"] svg, [class*="buttonDisconnect"]::after, [class*="buttonInfo"] {
+opacity : 1;
+}
+
+.chat .divider > span {
+    background: transparent !important;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 10px 0;
+    border-radius: 3px;
+    opacity: 1;
+    padding: 5px 15px;
+    width: 100%;
+    text-align: center;
+} 
+
+.userPopout-4pfA0d {
+    background: rgba(0,0,0, .6);
+}
+.userPopout-4pfA0d :not([class*="status-"]) {
+    background-color: transparent;
+}
+.headerNormal-1cioxU {
+    background: transparent
+}
+
+
+:root {
+    --load1: "Welcome To";
+    --load2: "A New";
+    --load3: "World"
+}
+
+
+:root {
+    --bg-overlay-color: rgba(0,0,0, .4);
+}
+.yourBgSelector {
+    background: linear-gradient(var(--bg-overlay-color), var(--bg-overlay-color)),
+        url(image) 50%/cover;
+}
+
+#app-mount form [class*="inner-"] { /* chat bar */
+    background: transparent;
+}
+
+#app-mount form [class*="autocomplete-"] {
+    background: rgba(0, 0, 0, 0.3);
+} /* autocomplete popup */
+
+#app-mount form [class*="selectorSelected-"] {
+    background: rgba(0, 0, 0, 0.5);
+} /* autocomplete selected option */
+
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+========= CUSTOMIZABLE BACKGROUND IMAGE ==========
+*/
+body::after,
+.callout-backdrop,
+.user-popout::before,
+#user-profile-modal .header::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label{
+    background-image: url(https://i.imgur.com/Y4IGM7T.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
+}
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
